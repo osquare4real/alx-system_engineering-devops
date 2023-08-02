@@ -1,2 +1,3 @@
-# alx-system_engineering-devops
-Alx projects 
+#!/bin/bash
+You are not allowed to use backticks, &&, || or ;
+

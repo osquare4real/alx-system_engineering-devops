@@ -1,0 +1,2 @@
+#!/n/bash
+chomod u+x hello

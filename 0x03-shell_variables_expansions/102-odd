@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | awk 'NR%2==1'
+file=input.txt; count=0; while IFS= read -r line; do ((count++)); if [ "$(($count % 2))" -eq 1 ]; then echo "$line"; fi; done < "$file"

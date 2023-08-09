@@ -1,0 +1,2 @@
+#!/bin/bash
+psate -d, - - | cut -d -f1
